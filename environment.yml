@@ -1,0 +1,14 @@
+name: lammps
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - matplotlib=3.5.*
+  - numpy
+  - jupyterlab >= 3.0
+  - ipywidgets >= 7.0,<8
+  - notebook >= 4.2
+  - lammps
+  - mdanalysis
+  - nglview
