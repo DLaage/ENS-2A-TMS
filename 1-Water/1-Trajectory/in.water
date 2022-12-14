@@ -71,7 +71,7 @@ fix 2 all nve
 dump xyz all xyz 10 traj.xyz # output trajectory
 dump_modify xyz element O H # assign element names
 # .. print velocities
-dump vel all custom 10 velocities.xyz id vx vy vz
+dump vel all custom 10 velocities.lammpsdump id vx vy vz
 # .. on-the-fly mean-square displacement calculation
 group oxygen type 1
 compute 10 oxygen msd
