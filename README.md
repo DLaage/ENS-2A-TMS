@@ -1,4 +1,4 @@
-# test_notebook_lammps
+# ENS-2A-TMS
 
 My Binder can be used to interact with these notebooks online:
 
