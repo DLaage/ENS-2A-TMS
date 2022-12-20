@@ -12,3 +12,5 @@ dependencies:
   - lammps
   - mdanalysis
   - nglview
+  - mdtraj
+  - tqdm
